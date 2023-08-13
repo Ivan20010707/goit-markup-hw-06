@@ -18,13 +18,31 @@
 }
 
 
-@media screen and (min-width: 1156) {
+@media screen and (min-width:  1156px) {
     .container {
         max-width: 1156px;
     }
-    
-    .advantages-item {
-        width: calc((100% - 72px) / 4);  
+    .advantages-item{
+    width: calc((100% - 72px) / 4);
     }
 
+    .advantages-subtitle{
+        font-size: 20px;
+    }
+
+    .advantages-item-top{ 
+    display: none;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: var(--cloud, #F4F4FD);
+    margin-bottom: 8px;
+    }
+    .advantages{
+        padding-top: 120;
+        padding-bottom: 120;
+    }
 } 
